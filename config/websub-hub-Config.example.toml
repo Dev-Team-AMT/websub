@@ -1,0 +1,18 @@
+[kafkaHub.config]
+
+HUB_PORT = 9191
+SERVER_ID = "server-1"
+
+KAFKA_BOOTSTRAP_NODE = "10.0.9.141:30092"
+REGISTERED_WEBSUB_TOPICS_TOPIC = "registered-websub-topics"
+CONSOLIDATED_WEBSUB_TOPICS_TOPIC = "consolidated-websub-topics"
+WEBSUB_SUBSCRIBERS_TOPIC = "registered-websub-subscribers"
+CONSOLIDATED_WEBSUB_SUBSCRIBERS_TOPIC = "consolidated-websub-subscribers"
+
+SECURITY_ON = false
+
+MOSIP_AUTH_BASE_URL = "http://10.0.9.102:8080"
+MOSIP_AUTH_VALIDATE_TOKEN_URL = "http://10.0.9.102:8080/realms/mosip/protocol/openid-connect/userinfo"
+
+CONSOLIDATOR_BASE_URL = "http://websub-consolidator"
+CONSOLIDATOR_HEALTH_ENDPOINT = "/consolidator/actuator/health"

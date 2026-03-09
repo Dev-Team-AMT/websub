@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM eclipse-temurin:11-jre
 ARG hub_config_url
 ARG max_heap_size=2048m
 ARG ballerina_download_url=https://dist.ballerina.io/downloads/2201.0.0/ballerina-2201.0.0-swan-lake-linux-x64.deb
